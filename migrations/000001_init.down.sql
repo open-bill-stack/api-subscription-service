@@ -1,0 +1,6 @@
+BEGIN;
+
+DROP TABLE IF EXISTS tariffs;
+DROP EXTENSION IF EXISTS "pgcrypto";
+
+COMMIT;
